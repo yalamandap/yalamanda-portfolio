@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { ChevronDown, Github, Linkedin, Mail, Code } from 'lucide-react';
 
@@ -21,7 +20,6 @@ const Hero = () => {
       const fullText = roles[i];
 
       setText(isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1));
-
       setTypingSpeed(isDeleting ? 30 : 150);
 
       if (!isDeleting && text === fullText) {
@@ -48,7 +46,6 @@ const Hero = () => {
       {/* Animated Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 via-transparent to-teal-900/20"></div>
-        {/* Floating particles */}
         {[...Array(50)].map((_, i) => (
           <div
             key={i}
@@ -66,9 +63,11 @@ const Hero = () => {
       <div className="text-center z-10 px-4 max-w-4xl mx-auto">
         {/* Profile Image */}
         <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-blue-400 to-teal-400 p-1 animate-pulse">
-          <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
-            <span className="text-4xl font-bold text-blue-400">PYR</span>
-          </div>
+          <img
+            src="https://github.com/papana.png"
+            alt="Papana Yalamanda Rao"
+            className="w-full h-full object-cover rounded-full"
+          />
         </div>
 
         {/* Name and Title */}
