@@ -64,7 +64,7 @@ const Hero = () => {
         {/* Profile Image */}
         <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-blue-400 to-teal-400 p-1 animate-pulse">
           <img
-            src="https://github.com/papana.png"
+            src="https://i.postimg.cc/DzTVjNk4/IMG-20241228-WA0139-1.jpg"
             alt="Papana Yalamanda Rao"
             className="w-full h-full object-cover rounded-full"
           />
