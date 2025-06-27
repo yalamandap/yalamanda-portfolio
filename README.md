@@ -1,6 +1,4 @@
-Here's your professionally written `README.md` for your Lovable project, customized to showcase that **you created and deployed it yourself** using modern technologies:
 
----
 
 ````markdown
 # 🌟 My Portfolio Web App (Built with Vite + React + Tailwind)
