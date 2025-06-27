@@ -63,25 +63,25 @@ const Contact = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com/papana',
+      href: 'https://github.com/yalamandap',
       gradient: 'from-gray-600 to-gray-800'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/papana',
+      href: 'https://www.linkedin.com/in/yalamanda-rao-papana-5309b9284/',
       gradient: 'from-blue-600 to-blue-800'
     },
     {
       icon: Code,
       label: 'LeetCode',
-      href: 'https://leetcode.com/papana',
+      href: 'https://leetcode.com/u/chinnu_naidu/',
       gradient: 'from-orange-500 to-red-500'
     },
     {
       icon: Trophy,
       label: 'HackerRank',
-      href: 'https://hackerrank.com/papana',
+      href: 'https://www.hackerrank.com/profile/yalamandap6',
       gradient: 'from-green-600 to-green-800'
     }
   ];
