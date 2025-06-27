@@ -20,8 +20,8 @@ const Projects = () => {
       features: ['ML Classification', 'Real-time Analysis', 'REST API', 'Rich UI'],
       icon: Brain,
       gradient: 'from-purple-500 to-pink-500',
-      github: '#',
-      demo: ''
+      github: 'https://github.com/yalamandap/E-mail-Spam-detection',
+      demo: 'https://e-mail-spam-detection-wsao.onrender.com/'
     },
     {
       title: 'CRUD Application',
@@ -30,7 +30,7 @@ const Projects = () => {
       features: ['Real-time Updates', 'Responsive Design', 'Cloud Storage', 'User Authentication'],
       icon: Database,
       gradient: 'from-green-500 to-teal-500',
-      github: '#',
+      github: 'https://github.com/yalamandap/employee_management',
       demo: 'https://employee-crud-operations.netlify.app/'
     },
     {
@@ -40,8 +40,8 @@ const Projects = () => {
       features: ['Automated Scraping', 'Data Processing', 'Export Options', 'Error Handling'],
       icon: Globe,
       gradient: 'from-orange-500 to-red-500',
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/yalamandap/OLX_scraper',
+      demo: 'https://github.com/yalamandap/OLX_scraper'
     }
   ];
 
@@ -147,3 +147,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
