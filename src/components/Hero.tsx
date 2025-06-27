@@ -59,7 +59,9 @@ const Hero = () => {
           />
         ))}
       </div>
-      <br>
+
+      {/* Spacer */}
+      <div className="mt-6" />
 
       <div className="text-center z-10 px-4 max-w-4xl mx-auto">
         {/* Profile Image */}
@@ -90,7 +92,7 @@ const Hero = () => {
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-12">
           <a
-            href="github.com/yalamandap"
+            href="https://github.com/yalamandap"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-slate-800/50 text-gray-300 hover:text-blue-400 hover:bg-blue-500/10 transition-all duration-300 hover:scale-110"
