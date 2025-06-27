@@ -96,16 +96,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ```
 
----
-
-### ✅ To use this:
-
-1. Replace `<your-git-repo-url>` and `<project-folder>` with your actual repo URL and name.
-2. Save this as `README.md` in your root folder.
-3. It will auto-show on GitHub when someone visits your repo.
-
-Let me know if you'd like:
-- A matching `LICENSE` file.
-- A project banner or preview screenshot section.
-- A “Projects” or “Blog” section added to your site.
-```
