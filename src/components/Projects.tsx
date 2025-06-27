@@ -21,7 +21,7 @@ const Projects = () => {
       icon: Brain,
       gradient: 'from-purple-500 to-pink-500',
       github: '#',
-      demo: '#'
+      demo: ''
     },
     {
       title: 'CRUD Application',
@@ -31,7 +31,7 @@ const Projects = () => {
       icon: Database,
       gradient: 'from-green-500 to-teal-500',
       github: '#',
-      demo: '#'
+      demo: 'https://employee-crud-operations.netlify.app/'
     },
     {
       title: 'Web Scraping Tool',
