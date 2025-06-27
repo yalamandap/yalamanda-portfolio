@@ -59,6 +59,7 @@ const Hero = () => {
           />
         ))}
       </div>
+      <br>
 
       <div className="text-center z-10 px-4 max-w-4xl mx-auto">
         {/* Profile Image */}
@@ -89,7 +90,7 @@ const Hero = () => {
         {/* Social Links */}
         <div className="flex justify-center space-x-6 mb-12">
           <a
-            href="https://github.com/papana"
+            href="github.com/yalamandap"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-slate-800/50 text-gray-300 hover:text-blue-400 hover:bg-blue-500/10 transition-all duration-300 hover:scale-110"
@@ -97,7 +98,7 @@ const Hero = () => {
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/papana"
+            href="https://www.linkedin.com/in/yalamanda-rao-papana-5309b9284"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-slate-800/50 text-gray-300 hover:text-blue-400 hover:bg-blue-500/10 transition-all duration-300 hover:scale-110"
@@ -111,7 +112,7 @@ const Hero = () => {
             <Mail size={24} />
           </a>
           <a
-            href="https://leetcode.com/papana"
+            href="https://leetcode.com/u/chinnu_naidu/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-slate-800/50 text-gray-300 hover:text-blue-400 hover:bg-blue-500/10 transition-all duration-300 hover:scale-110"
